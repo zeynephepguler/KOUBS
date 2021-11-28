@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <style media="screen">
-
+@extends('layouts.master')
+@section('content')
+  @section('title','admingiriş')
+<style>
     h1{
         color: blue;
       }
@@ -24,8 +22,7 @@
 
       }
     </style>
-    <title>Admin Giriş</title>
-  </head>
+
   <body>
     <h1>Admin Sayfasına Hoşgeldiniz...</h1>
 
@@ -43,15 +40,19 @@
 
     <label for="Admin sifre">Admin sifre:
 
-  <div><textarea id="Admin sifre" name="Admin sifre"rows="2" cols="40">
+  <div><textarea id="Admin sifre" name="Adminsifre"rows="2" cols="40">
             şifre giriniz
   </textarea>
+
 </div>
   </label>
-  <button type="button" name="giriş yap">
+  <button type="button" name="giriş yap"
+
+  onclick="location='Adminanasayfa'"
+
+    >
 Giriş Yap
   </button>
     </body>
 
-
-</html>
+@stop

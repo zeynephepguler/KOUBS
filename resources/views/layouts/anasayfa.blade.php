@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Kobs</title>
-  </head>
+@extends('layouts.master')
+@section('content')
+  @section('title','anasayfa')
   <body>
     <h1>Hoşgeldiniz....</h1>
   </body>
-  <img src="C:\Users\LENOVO\Desktop\mono_lisa.jpg"
-    alt="KOü" width=""></img>
 
     <button type="button" name="Admin" onclick="location='Admin'">
     Admin Giriş
@@ -18,4 +13,4 @@
   Öğrenci Giriş
 
     </button>
-</html>
+  @endsection

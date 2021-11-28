@@ -13,5 +13,10 @@ use App\Resource\View;
 |
 */
 
-Route::View("/","anasayfa");
-Route::View("/Admin","admin");
+Route::View("/","layouts.anasayfa");
+Route::get('/', function()
+{
+  return view('layouts.anasayfa');
+})->name('anasayfa');
+Route::View("/Admin","layouts.admin");
+Route::View("/Adminanasayfa","layouts.adminanasayfa");
