@@ -13,10 +13,17 @@ use App\Resource\View;
 |
 */
 
-Route::View("/","layouts.anasayfa");
+
 Route::get('/', function()
 {
   return view('layouts.anasayfa');
 })->name('anasayfa');
-Route::View("/Admin","layouts.admin");
+
+Route::get('/Admin', function()
+{
+  return view('layouts.admin');
+})->name('admin');
+
+
+
 Route::View("/Adminanasayfa","layouts.adminanasayfa");

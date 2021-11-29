@@ -9,16 +9,10 @@
   <body>
     <div >
     <ul >
-
-
-      <li><a href="#index">Ana sayfa</a></li>
-
+      <li><a href="/">Ana sayfa</a></li>
       <li><a href="#">Başvurularım</a></li>
-
       <li><a href="#">Başvuru Yap</a></li>
-
       <li><a href="#">Kişisel Bilgiler</a></li>
-
       <li><a href="#">Çıkış</a></li>
     </ul>
   </div>
