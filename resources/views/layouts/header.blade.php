@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>@yield('title')</title>
-    <link rel="stylesheet" href="ilk.css">
+    <link rel="stylesheet" href="{{ asset('css/ilk.css') }}">
   </head>
 
 

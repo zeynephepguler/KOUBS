@@ -4,9 +4,7 @@
   @include('layouts.header')
   </head>
   <body>
-      <div >
-        @include('layouts.menu')
-      </div><center>
+    <center>
             <div >
           @yield('content')
         </div>
