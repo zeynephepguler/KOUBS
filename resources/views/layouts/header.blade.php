@@ -5,9 +5,16 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="ilk.css">
   </head>
-  <body>
+
+
     <div class="üst">
-fdgdhgfghdrdghtrhf
+      <img src="{{asset('resimler/logorgb.png')}}" height="150px" width="150px" >
+
     </div>
-  </body>
+    <div class="üst" >
+      <center>
+      KOCAELİ ÜNİVERSİTESİ YAZLAB PROJESİ</center>
+    </div>
+
+
 </html>

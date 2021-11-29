@@ -9,7 +9,7 @@ ul {
 
     padding: 0;
 
-    width: 25%;
+    width: 15%;
 
     background-color: #f1f1f1;
 
@@ -41,3 +41,11 @@ li a:hover:not(.active) {
 
     color: white;
 }
+
+.üst{
+  background-color: #62d751;
+  height: 75px;
+  width: %100;
+  color: white;
+  padding: 5px;
+  }

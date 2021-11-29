@@ -10,6 +10,7 @@
     <div >
     <ul >
 
+
       <li><a href="#index">Ana sayfa</a></li>
 
       <li><a href="#">Başvurularım</a></li>

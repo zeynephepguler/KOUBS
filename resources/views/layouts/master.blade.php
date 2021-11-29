@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-  @include('layouts.baglantılar')
+  @include('layouts.header')
   </head>
   <body>
-    <center>
-      <div >
-        @include('layouts.header')
-      </div>
 
-        <div >
+      <div >
+        @include('layouts.menu')
+      </div><center>
+            <div >
           @yield('content')
         </div>
         <div >
