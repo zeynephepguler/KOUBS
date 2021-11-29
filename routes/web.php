@@ -19,6 +19,11 @@ Route::get('/', function()
   return view('layouts.anasayfa');
 })->name('anasayfa');
 
+Route::get('/ogrencigiris', function()
+{
+  return view('layouts.ogrencigiris');
+})->name('ogrencianasayfa');
+
 Route::get('/ogrencianasayfa', function()
 {
   return view('layouts.ogrencianasayfa');
