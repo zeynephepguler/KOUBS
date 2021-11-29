@@ -1,16 +1,13 @@
-@extends('layouts.master')
-@section('content')
-  @section('title','anasayfa')
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="ilk.css" type="text/css">
+  </head>
   <body>
-    <h1>Hoşgeldiniz....</h1>
+    <div >
+    @extends('layouts.menu')
+  </div>
   </body>
-
-    <button type="button" name="Admin" onclick="location='Admin'">
-    Admin Giriş
-
-    </button>
-    <button type="button" name="Admin">
-  Öğrenci Giriş
-
-    </button>
-  @endsection
+</html>
