@@ -24,6 +24,16 @@ Route::get('/ogrencianasayfa', function()
   return view('layouts.ogrencianasayfa');
 })->name('ogrencianasayfa');
 
+Route::get('/basvurularım', function()
+{
+  return view('layouts.başvurularım');
+})->name('basvurularım');
+
+Route::get('/basvuruyap', function()
+{
+  return view('layouts.yenibasvurularim');
+})->name('yenibasvurularım');
+
 Route::get('/Admin', function()
 {
   return view('layouts.admin');
