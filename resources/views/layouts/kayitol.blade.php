@@ -17,15 +17,15 @@
   </div>
 
       <div class="but"> <center>
-        <input type="text" size="50px" placeholder="Öğrenci No"> <br>
+        <input type="number" pattern="\d" size="50px" placeholder="Öğrenci No"> <br>
         <input type="text" size="50px" placeholder="Ad"><br>
         <input type="text" size="50px" placeholder="Soyad"><br>
-        <input type="text" size="50px" placeholder="Şifre"><br>
-        <input type="text" size="50px" placeholder="Şifre Tekrarı"><br>
-        <input type="text" size="50px" placeholder="E-posta"><br>
-        <input type="text" size="50px" placeholder="Telefon"><br>
-        <input type="text" size="50px" placeholder="TC Kimlik"><br>
-        <input type="text" size="50px" placeholder="Doğum Tarihi"><br>
+        <input type="password" size="50px" placeholder="Şifre"><br>
+        <input type="password" size="50px" placeholder="Şifre Tekrarı"><br>
+        <input type="email" size="50px" placeholder="E-posta"><br>
+        <input type="tel" size="50px" placeholder="Telefon"><br>
+        <input type="text" pattern=“\d{11} size="50px" placeholder="TC Kimlik"><br>
+        <input type="date" size="50px" placeholder="Doğum Tarihi"><br>
         <input type="text" size="50px" placeholder="Adres"><br>
         <select>
         <option> Sınıf Seçiniz </option>
