@@ -41,7 +41,7 @@ Route::get('/basvuruyap', function()
 
 Route::get('/admin', function()
 {
-  return view('layouts.admin');
+  return view('layouts.admingirişn');
 })->name('admin');
 
 
