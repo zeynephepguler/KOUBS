@@ -13,7 +13,7 @@
     </div>
     <div class="üst" >
       <center>
-      KOCAELİ ÜNİVERSİTESİ YAZLAB PROJESİ</center>
+      KOCAELİ ÜNİVERSİTESİ YAZLAB PROJESİ </center>
     </div>
 
 

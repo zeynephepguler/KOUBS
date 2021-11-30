@@ -54,4 +54,9 @@ Route::get('/kayitol', function()
   return view('layouts.kayitol');
 })->name('admin');
 
+Route::get('/sifremiunuttum', function()
+{
+  return view('layouts.sifremiunuttum');
+})->name('admin');
+
 Route::View("/Adminanasayfa","layouts.adminanasayfa");

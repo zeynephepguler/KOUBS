@@ -12,7 +12,7 @@
     <ul ><left>
       <li><a href="/kayitol">Kayıt Ol</a></li>
       <li><a href="/ogrencigiris">Giriş Yap</a></li>
-      <li><a href="/">Şifremi Unuttum</a></li>
+      <li><a href="/sifremiunuttum">Şifremi Unuttum</a></li>
     </ul>
   </div>
 
