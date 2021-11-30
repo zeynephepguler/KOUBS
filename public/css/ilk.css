@@ -7,7 +7,7 @@ ul {
     padding: 0;
     width: 15%;
     background-color: #f1f1f1;
-    position: fixed;
+  position:absolute;
     height: 100%;
     overflow: auto;
 }
@@ -36,9 +36,12 @@ li a:hover:not(.active) {
   color: white;
   padding: 5px;
   }
+<<<<<<< HEAD
 
 .div1{
   margin-top: 0px;
   margin-right: 0px;
   position: relative;
   }
+=======
+>>>>>>> 3bf2fe86ff24fc8549d9fb240e3a4258b2a15339
