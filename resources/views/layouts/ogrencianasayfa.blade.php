@@ -2,6 +2,6 @@
 @extends('layouts.master')
 @section('content')
 
-öğrenci anasyfası
+öğrenci anasayfası
 
 @stop
