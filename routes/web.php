@@ -39,11 +39,14 @@ Route::get('/basvuruyap', function()
   return view('layouts.yenibasvurularim');
 })->name('yenibasvurularım');
 
-Route::get('/admin', function()
+Route::get('/admingiriş', function()
 {
-  return view('layouts.admingirişn');
+  return view('layouts.admingiris');
 })->name('admin');
 
-
+Route::get('/admin', function()
+{
+  return view('layouts.admin');
+})->name('admin');
 
 Route::View("/Adminanasayfa","layouts.adminanasayfa");
