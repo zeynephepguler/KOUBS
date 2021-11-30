@@ -39,7 +39,7 @@ Route::get('/basvuruyap', function()
   return view('layouts.yenibasvurularim');
 })->name('yenibasvurularım');
 
-Route::get('/Admin', function()
+Route::get('/admin', function()
 {
   return view('layouts.admin');
 })->name('admin');

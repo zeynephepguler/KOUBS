@@ -7,8 +7,8 @@
       <input type="text" size="50px" placeholder="Şifre"><br><br>
 
 
-    <button type="button" name="button" class="button" onclick="location='ogrencianasayfa'"> Giriş Yap </button>
-  <button type="button" name="button" class="button" onclick="location='#'">  Şifremi Unuttum</button>
+    <button type="button" name="button" class="button" onclick="location='admin'"> Giriş Yap </button>
+
 </body>
 </div>
 @stop
