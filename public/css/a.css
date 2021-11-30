@@ -27,7 +27,7 @@
 }
 
 input {
-  height: 30px; width: auto;
+  height: 30px; width: 305px;
   padding:8px 20px;
   border: 1px solid #eee;
   border-left: 3px solid;
@@ -41,3 +41,19 @@ input:focus{
   border: 1px solid #eee;
   border-left: 3px solid #3e8e41;
 }
+select{
+
+  height: 40px; width: 350px;
+  padding:8px 20px;
+  border: 1px solid #eee;
+  border-left: 3px solid;
+  border-left-color:salmon;
+  border-radius: 5px;
+  transition: border-color .8s ease-out;
+  }
+
+  select:focus{
+  outline:none;
+  border: 1px solid #eee;
+  border-left: 3px solid #3e8e41;
+  }
